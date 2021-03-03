@@ -8,3 +8,13 @@ Commands for the Prompt[p] or for git[g]
 [g] add 
 [g] commit   commit-m "comment to the file"  commit-a (add and commit all files and subdirs)
 
+
+
+
+Commands to be tested
+
+cat <filename> (show the content of the file)
+mv <filename> (move a file)
+git checkout <commit code> (restore the file to that particular version)
+git mv <file.md> <file.txt> (the right way to rename a file)
+git restore <filename> (restore a previously deleted file)
