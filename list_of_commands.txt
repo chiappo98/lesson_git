@@ -1,0 +1,10 @@
+Commands for the Prompt[p] or for git[g]
+
+[p] cd cd..(go to the father directory)
+[p] dir dir.(show the contnet with file names) dir/a(show hidden files/direcoties)
+
+[g]git init
+[g] status
+[g] add 
+[g] commit   commit-m "comment to the file"  commit-a (add and commit all files and subdirs)
+
