@@ -7,7 +7,10 @@ Commands for the Prompt[p] or for git[g]
 [g] status
 [g] add 
 [g] commit   commit-m "comment to the file"  commit-a (add and commit all files and subdirs)
-
+[g] remote rm origin   (if somethin doesn't work- e.g. fatal:could not read Username for 'https://github.com')
+[g] remote add origin https://{username}:{password}@github.com/{username}/{reponame.git}
+	(reset remote origin. NB in this way you won't have to write username and pwd every time you make a 'push')
+[g]	
 
 
 
@@ -20,4 +23,3 @@ git mv <file.md> <file.txt> (the right way to rename a file)
 git restore <filename> (restore a previously deleted file)
 
 
-to reinstall git from the web search for https://git-scm.com/downloads
