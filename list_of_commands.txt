@@ -10,8 +10,9 @@ Commands for the Prompt[p] or for git[g]
 [g] remote rm origin   (if somethin doesn't work- e.g. fatal:could not read Username for 'https://github.com')
 [g] remote add origin https://{username}:{password}@github.com/{username}/{reponame.git}
 	(reset remote origin. NB in this way you won't have to write username and pwd every time you make a 'push')
-[g]	
-
+[g] mv <file.md> <file.txt> (the right way to rename a file)
+[g] restore <filename> (restore a previously deleted file)
+	(if the deletion has been committed yet must use "git restore --	staged <filename>)
 
 
 Commands to be tested
@@ -19,7 +20,5 @@ Commands to be tested
 cat <filename> (show the content of the file)
 mv <filename> (move a file)
 git checkout <commit code> (restore the file to that particular version)
-git mv <file.md> <file.txt> (the right way to rename a file)
-git restore <filename> (restore a previously deleted file)
 
 
